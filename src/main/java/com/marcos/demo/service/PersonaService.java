@@ -37,6 +37,6 @@ public class PersonaService implements IPersonaService {
 
     @Override
     public void delete(int id) {
-
+        data.deleteById(id);
     }
 }
